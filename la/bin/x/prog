@@ -1,0 +1,4 @@
+use lib::abs ();
+BEGIN{ @INC = (); }
+use lib::abs '../../lib';
+use a::b::c;

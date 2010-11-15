@@ -1,0 +1,4 @@
+use FindBin; use lib ();
+BEGIN{ @INC = (); }
+use lib "$FindBin::Bin/../lib";
+use a::b::c;
